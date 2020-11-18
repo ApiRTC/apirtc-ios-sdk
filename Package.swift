@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "ApiRTC",
+    name: "ApiRTC-iOS-SDK",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "ApiRTC",
+            name: "ApiRTC-iOS-SDK",
             targets: ["ApiRTCTarget"]),
     ],
     dependencies: [
@@ -34,6 +34,11 @@ let package = Package(
           name: "ApiRTCSDK",
           url: "https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip",
           checksum: "9a609b95fd2938f7f1521f2215b373b6eb0ba94c260d1aa640d7133e449ae7d2"
+        ),
+        .binaryTarget(
+          name: "WebRTC",
+          url: "https://download.apizee.com/ios/sdk/WebRTC.xcframework.zip",
+          checksum: "cc43c102e62d6e7c7d174ff85ec39306793150fc0501745e814cb2da9373a88a"
         ),
         .target(
             name: "ApiRTCTarget",
