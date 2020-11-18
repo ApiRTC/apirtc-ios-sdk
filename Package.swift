@@ -44,11 +44,11 @@ let package = Package(
             name: "ApiRTCTarget",
             dependencies: [
                 .target(name: "ApiRTCSDK", condition: .when(platforms: [.iOS])),
+                .target(name: "WebRTC", condition: .when(platforms: [.iOS])),
                 "CocoaAsyncSocket",
                 "RxSwift",
                 .product(name: "RxCocoa", package: "RxSwift"),
                 .product(name: "RxRelay", package: "RxSwift"),
-                "WebRTC",
                 "SocketIO"
             ],
             path: "Sources/ApiRTCTarget"
