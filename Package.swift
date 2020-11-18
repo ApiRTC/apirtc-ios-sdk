@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "ApiRTC",
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "ApiRTC",
@@ -32,7 +33,7 @@ let package = Package(
         .binaryTarget(
           name: "ApiRTCSDK",
           url: "https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip",
-          checksum: "18829c405a57aadc94109f6fec0516817321deb57fef5c1695856be8bc15613e"
+          checksum: "9a609b95fd2938f7f1521f2215b373b6eb0ba94c260d1aa640d7133e449ae7d2"
         ),
         .target(
             name: "ApiRTCTarget",
