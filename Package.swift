@@ -17,10 +17,6 @@ let package = Package(
             .exact("15.2.0")
         ),
         .package(
-            url: "https://github.com/sachakh/WebRTC",
-            .exact("1.0.2")
-        ),
-        .package(
             url: "https://github.com/robbiehanson/CocoaAsyncSocket",
             .exact("7.6.4")
         ),
@@ -33,7 +29,7 @@ let package = Package(
         .binaryTarget(
           name: "ApiRTCSDK",
           url: "https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip",
-          checksum: "9a609b95fd2938f7f1521f2215b373b6eb0ba94c260d1aa640d7133e449ae7d2"
+          checksum: "0528ced542d9938bc68397048fd9f3eea1eb96286206ae56005f152b2e1260e6"
         ),
         .binaryTarget(
           name: "WebRTC",
