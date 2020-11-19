@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
           name: "ApiRTCSDK",
           url: "https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip",
-          checksum: "0528ced542d9938bc68397048fd9f3eea1eb96286206ae56005f152b2e1260e6"
+          checksum: "312ac2dc40198f38a6a37200063f0b8e14b2c5e9de70c728ca9cc562e5bae51e"
         ),
         .binaryTarget(
           name: "WebRTC",
