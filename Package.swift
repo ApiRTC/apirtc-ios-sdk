@@ -14,7 +14,7 @@ let package = Package(
         .package(
             name: "SocketIO",
             url: "https://github.com/socketio/socket.io-client-swift",
-            .exact("15.2.0")
+            .exact("16.0.1")
         ),
         .package(
             url: "https://github.com/robbiehanson/CocoaAsyncSocket",
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/ReactiveX/RxSwift",
-            .exact("6.0.0-rc.1")
+            .exact("6.1.0")
         )
     ],
     targets: [
