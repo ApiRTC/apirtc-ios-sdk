@@ -14,7 +14,7 @@ let package = Package(
         .package(
             name: "SocketIO",
             url: "https://github.com/socketio/socket.io-client-swift",
-            .exact("15.2.0")
+            .exact("16.0.1")
         ),
         .package(
             url: "https://github.com/robbiehanson/CocoaAsyncSocket",
@@ -22,14 +22,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/ReactiveX/RxSwift",
-            .exact("6.0.0-rc.1")
+            .exact("6.1.0")
         )
     ],
     targets: [
         .binaryTarget(
           name: "ApiRTCSDK",
           url: "https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip",
-          checksum: "312ac2dc40198f38a6a37200063f0b8e14b2c5e9de70c728ca9cc562e5bae51e"
+          checksum: "2bc6f326dd3870042b1d37bc084b4c608310148df13cf1c455ba099b1546bb61"
         ),
         .binaryTarget(
           name: "WebRTC",
