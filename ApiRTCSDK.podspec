@@ -15,12 +15,14 @@ s.source = {
 	:http => 'https://download.apizee.com/ios/sdk/ApiRTCSDK.xcframework.zip'
 }
 
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+
 s.dependency 'RxSwift', '6.1.0'
 s.dependency 'RxRelay', '6.1.0'
 s.dependency 'Socket.IO-Client-Swift', '16.0.1'
 s.dependency 'CocoaAsyncSocket', '7.6.5'
 s.dependency 'GoogleWebRTC', '1.1.31999'
 
-s.vendored_frameworks = 'ApiRTCSDK.framework'
+s.vendored_frameworks = 'ApiRTCSDK.xcframework'
 
 end
