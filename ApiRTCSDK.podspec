@@ -11,7 +11,10 @@ s.author      = { 'Aleksandr Khorobrykh' => 'aleksandr.khorobrykh@apizee.com', '
 
 s.ios.deployment_target = '13.0'
 
-s.source = { :http => 'https://download.apizee.com/ios/sdk/ApiRTCSDK-{spec.version}.xcframework.zip' }
+s.source = { 
+	:http => 'https://download.apizee.com/ios/sdk/ApiRTCSDK-{spec.version}.xcframework.zip',
+	:sha1 => '6d2eda26a94813d07c01593aed558273ebe9c068'
+}
 
 s.dependency 'RxSwift', '6.1.0'
 s.dependency 'RxRelay', '6.1.0'
