@@ -15,3 +15,7 @@ Requires iOS 12+, Swift 5+, Xcode 12+
 ```
 pod 'ApiRTCSDK'
 ```
+
+# Samples
+
+Check our [iOS samples](https://github.com/apizee/ApiRTC-iOS-Samples)
