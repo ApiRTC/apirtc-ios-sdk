@@ -28,8 +28,6 @@ end
 
 ```
 
-```
-
 # Samples
 
 Check our [iOS samples](https://github.com/apizee/ApiRTC-iOS-Samples)
