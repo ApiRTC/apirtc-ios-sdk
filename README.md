@@ -16,6 +16,20 @@ Requires iOS 12+, Swift 5+, Xcode 12+
 pod 'ApiRTCSDK'
 ```
 
+Use Podfile post_install setup to properly link dependencies:
+```
+post_install do |installer|
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+			config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+		end
+	end
+end
+
+```
+
+```
+
 # Samples
 
 Check our [iOS samples](https://github.com/apizee/ApiRTC-iOS-Samples)
