@@ -6,7 +6,7 @@ ApiRTC cloud-based WebRTC API are built for web and mobile developers. Empower y
 
 # Requirements
 
-Requires iOS 12+, Swift 5+, Xcode 12+
+Requires iOS 14+, Swift 5+, Xcode 13+
 
 # Installation
 
