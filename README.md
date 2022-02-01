@@ -30,3 +30,7 @@ end
 # Samples
 
 Check our [iOS samples](https://github.com/apizee/ApiRTC-iOS-Samples)
+
+# References
+
+(ApiRTCSDK References](https://apirtc.github.io/references/apirtc-ios-sdk/)
